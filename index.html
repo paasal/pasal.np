@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasal.np Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="Pasal Logo" width="75px" />
+    </div>
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+      </ul>
+    </nav>
+    <img src="images/menu_icons.png" class="menu-icon" onclick="menutoggle()" />
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <h1>Online Clothing <br />Store.</h1>
+    </div>
+  </div>
+
+  <div class="row-1" id="about-us">
+    <div class="col-1">
+      <img src="images/logo.png" alt="Pasal Logo" width="250px" />
+    </div>
+    <div class="col-1">
+      <h2>About Us<br /><br /></h2>
+      <p>
+        We offer a wide range of clothing and accessories to choose from.
+        Currently, we are active on instagram and facebook. Please follow us
+        on instagram and Facebook to check our weekly content.
+      </p>
+    </div>
+  </div>
+
+  <div class="products" id="products">
+    <h2>Products</h2> <br /><br />
+    <div class="row">
+      <div class="col-3">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 5.png" /></a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 8.png" /></a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 4.png" /></a>
+      </div>
+      <div class="col-3 hide">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 9.png" /></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 10.png" /></a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle -1.png" /></a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 6.png" /></a>
+      </div>
+      <div class="col-3 hide">
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Rectangle 11.png" /></a>
+      </div>
+    </div>
+    <a href="https://www.instagram.com/pasal.np/" target="_blank"><h4>See more</h4></a>
+  </div>
+
+  <div class="footer">
+    <div class="row">
+      <div class="col-3">
+        <h3>Contact Us<br /><br /></h3>
+        <p>9840051706, 9842400779</p>
+      </div>
+      <div>
+        <img src="images/logo.png" alt="Pasal Logo" width="175px" style="margin: 25px 0;" />
+      </div>
+      <div class="col-3">
+        <h3>Follow Us<br /><br /></h3>
+        <a href="https://www.instagram.com/pasal.np/" target="_blank"><img src="images/Group 4.png" alt="follow us on instagram" /></a>
+        <a href="https://www.facebook.com/Pasalnp-100326655343612" target="_blank"><img src="images/Path 11.png" alt="follow us on facebook" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright-footer">
+    <p>© Copyright 2021 - Pasal.np</p>
+  </div>
+
+</div>
+
+<!-- js for toggle menu -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+        MenuItems.style.maxHeight = "200px";
+      }
+      else
+      {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+
+  </script>
+
+</body>
+</html>
